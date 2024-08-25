@@ -18,6 +18,7 @@ class Bag {
   }
 
   void setTicket(Ticket ticket) {
+    //질문3: 근데 이러면 티켓을 한장밖에 못들고있지 않나 항상?
     _ticket = ticket;
   }
 

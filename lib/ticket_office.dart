@@ -1,8 +1,9 @@
 import 'package:selling_ticket_app/ticket/ticket.dart';
 
+//매표소
 class TicketOffice {
-  int _amount = 0;
-  List<Ticket> _tickets = [];
+  int _amount = 0; //판매금액
+  List<Ticket> _tickets = []; //관객에게 판매할 티켓
 
   TicketOffice(int amount, List<Ticket> tickets)
       : _amount = amount,
