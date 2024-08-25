@@ -20,6 +20,7 @@ class TicketOffice {
   }
 
   void plusAmount(int amount) {
+    print('매표소의 매출이 $amount원 올랐습니다.');
     _amount += amount;
   }
 }
