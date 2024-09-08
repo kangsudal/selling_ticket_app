@@ -11,6 +11,6 @@ class Audience{
     return _bag.hold(ticket);
     // bag에 ticket의 상태를 설정해준다.
     // bag에서 뺏은 돈을 매표소로 전달하기위해 반환해준다.
-    }
+
   }
 }

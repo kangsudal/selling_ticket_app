@@ -35,7 +35,7 @@ class Bag {
     _amount += amount;
   }
 
-  int hold(Ticket ticket){
+  int hold(Ticket ticket) {
     if (hasInvitation()) {
       //초대장이 있다면 돈 안내고 가방의 돈을 지킨채 ㅋㅋ 공짜로 티켓을 얻는다.
       //티켓을 얻었다고 얻은 이후의 내용은 따로 없는듯.
@@ -50,5 +50,6 @@ class Bag {
       //가방에서 뺏은 돈을 매표소 매출로 옮겨넣기위해 티켓비를 반환한다.
       // _ticketOffice.plusAmount(ticket.getFee());
       return ticket.getFee();
+    }
   }
 }
